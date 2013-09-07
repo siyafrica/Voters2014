@@ -1,0 +1,1 @@
+var query = "SELECT 'Date', 'Time', 'Street Address', 'Town', 'Larger Town', 'Municipality', 'Reason', 'Classification', 'Participants', 'Arrests, 'Killed', 'Injured', 'Charges' FROM 11gaA1tEV-JqE_sKoqziCuGQ6GqSBmKeJXya998E#rows:id=1";

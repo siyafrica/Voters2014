@@ -1,0 +1,1 @@
+var query = "SELECT 'WARD_ID', 'Municipality', 'Percentage_18-19', 'Registered_18-19', 'Unregistered_18-19', 'Total_18-19', 'Total_EligibleVoters', 'Total_Registered%', 'Total_Registered' FROM 1xm5pI0CARDMfxCpWWG0d3fnG3OnVkAew3ns-K_Y#rows:id=1";

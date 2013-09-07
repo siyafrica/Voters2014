@@ -1,0 +1,410 @@
+﻿@font-face {
+	font-family: 'icomoon';
+	src:url('stylesfonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-help, .icon-help-2, .icon-location, .icon-location-2, .icon-check, .icon-location-3, .icon-location-4, .icon-compass {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-help:before {
+	content: "\e000";
+}
+.icon-help-2:before {
+	content: "\e001";
+}
+.icon-location:before {
+	content: "\e002";
+}
+.icon-location-2:before {
+	content: "\e003";
+}
+.icon-check:before {
+	content: "\f046";
+}
+.icon-location-3:before {
+	content: "\e004";
+}
+.icon-location-4:before {
+	content: "\e005";
+}
+.icon-compass:before {
+	content: "\e006";
+}
+
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+a{
+	text-decoration:none;
+	color:#003D81;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: bold;
+}
+blockquote {
+    margin: 1em 40px;
+}
+dfn {
+    font-style: italic;
+}
+mark {
+    background: none repeat scroll 0 0 #FFFF00;
+    color: #000000;
+}
+p, pre {
+    margin: 1em 0;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {
+    quotes: none;
+}
+q:before, q:after {
+    content: none;
+}
+small {
+    font-size: 75%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+dd {
+    margin: 0 0 0 40px;
+}
+menu, ol, ul {
+    padding: 0 0 0 40px;
+}
+nav ul, nav ol {
+    list-style: none outside none;
+}
+img {
+    border: 0 none;
+}
+legend {
+    border: 0 none;
+    padding: 0;
+    white-space: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {
+    line-height: normal;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    padding: 0;
+}
+input[type="search"] {
+    -moz-box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+b, strong, .strong {
+    font-weight: bold;
+}
+dfn, em, .em {
+	font-weight: bold;
+}
+small, .small {
+    font-size: 75%;
+}
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+dd {
+    margin: 0;
+}
+.sidebar ul, .sidebar ol, .commentlist {
+    list-style: none outside none;
+}
+.clearfix {
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+blockquote {
+	background:#f9f9f9;
+	border-left:10px solid #ccc;
+	margin:1.5em 10px;
+	padding:.5em 10px;
+	quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color:#ccc;
+	content:open-quote;
+	font-size:4em;
+	line-height:.1em;
+	margin-right:.25em;
+	vertical-align:-.4em;
+}
+blockquote p {
+	display:inline;
+}
+
+body{
+	font-family:"Lato",Arial, sans-serif;
+	background:url("bg.png") no-repeat scroll 0 0 / cover  #66CCFF;
+}
+#page,.menu-cont{
+	margin:0 auto;
+}
+.menu-cont{	
+	width:60%;
+}
+.header{
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:200;
+	background:#fff; 
+	padding: 10px 0;
+}
+.header ul {
+  float: right;
+  margin: 0; 
+}
+.header ul li {
+  color: #FFFFFF;
+  display: inline;
+  float: left;
+  padding: 10px 15px;
+}
+.header ul li a{
+	
+}
+.landing-section {
+  margin-top: 120px;
+  min-height: 250px;
+  text-align: center;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.logo .break {
+  background: none repeat scroll 0 0 #71BEE5;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  margin: 0 5px;
+  padding: 2px 5px;
+  text-align: center;
+}
+.landing-section h1 {
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-weight: normal;
+  font-size:4em;
+}
+.landing-section ul{
+	display:inline-block;
+	width:60%;
+}
+.landing-section ul li{
+	width:33%;
+	float:left;
+	margin:0 auto;
+	border-radius:2px;
+	background:rgba(255,255,255,0.6);
+}
+.landing-section ul li span {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #71BEE5;
+  border-radius: 2px 2px 0 0;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.landing-section ul li img{
+	width:100%;
+	max-width:100%;
+	height:auto;
+	padding-top:5px
+}
+.landing-section .break {
+  background: none repeat scroll 0 0 transparent;
+  color: #FFFFFF;
+  font-family: lato;
+  font-size: 35px;
+  padding: 5px 0;
+}
+.container {
+  background: none repeat scroll 0 0 #EBF8FF;
+  border-radius: 2px 2px 0 0;
+  margin: 0 auto;
+  padding: 20px;
+  width: 60%;
+}
+.question-section {
+  margin: 120px 0 60px;
+  height:auto;
+  text-align: center;
+}
+
+.question-section h1{	
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-weight: normal;
+  font-size:2em;
+
+}
+.question-section h1 select {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 10px;
+  padding: 0 0 0 5px;
+}
+.m-menu{
+	display:none;
+}
+.m-menu span {
+  font-size: 33px;
+}
+.page-content{
+}
+.page-content .table {
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+.page-content .table .row{
+	display:table-row;	
+	border:1px #71BEE5 solid;
+	padding:10px 0;
+}
+.page-content .table .row img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 20%;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+}
+.page-content .table .row div {
+  display: table-cell;
+  padding: 60px 0;
+  vertical-align: top;
+  width: 50%;
+}
+.page-content .row .value{
+	font-size:3em;
+	display:block;
+	padding:10px;
+}
+.page-content .eligle-res {
+  display: inline-block;
+  text-align: center !important;
+  width: 100% !important;
+}
+.container h2{
+	
+}
+.view-page{
+	background-image:none;
+}
+
